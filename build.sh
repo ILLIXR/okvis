@@ -11,7 +11,7 @@ then
 	cd "${path}"
 fi
 
-apt-get install cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev libboost-dev libboost-filesystem-dev libopencv-dev libboost-filesystem-dev
+apt-get install -y cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev libboost-dev libboost-filesystem-dev libopencv-dev libboost-filesystem-dev
 
 rm -rf build
 rm -rf install
